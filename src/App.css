@@ -36,3 +36,53 @@
     transform: rotate(360deg);
   }
 }
+
+.PhoneInputWrapper > input {
+  border-bottom: 2px solid gray;
+  outline: 0;
+  background: transparent;
+  color: white;
+}
+
+.PhoneInputWrapper {
+  padding: 5px;
+}
+
+.digits {
+  width: 90%;
+  height: 400px;
+}
+
+.digit-row {
+  height: 20%;
+  margin-bottom: 5px;
+}
+
+.digit-col {
+  width: 30%;
+  display: inline-block;
+  border: 1px solid gray;
+  border-radius: 5px;
+  /* margin: 2px; */
+  margin-right: 5px;
+  height: 100%;
+  text-align: center;
+}
+
+.digit-col:active {
+  background-color: lightgrey;
+  color: black;
+  cursor: pointer;
+}
+
+.digit-col > svg {
+  fill: white;
+}
+
+.digit-col:active > svg {
+  fill: black;
+}
+
+.digit {
+  /* height: 50px; */
+}
